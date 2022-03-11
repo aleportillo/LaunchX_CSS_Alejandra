@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/jeringa.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <title>Vacunas</title>
+</head>
+<body>
+    <header>
+        <h1>Vacunas</h1>
+        <span>
+            <a href="#">Base de datos</a>
+            <a href="#">Educacion</a>
+            <a href="#">Noticias</a>
+            <a href="#">Regulacion</a>
+            <button>Obtener vacuna</button>
+        </span>
+    </header>
+    <section id="banner">
+        <div>
+            <h2>Combate los virus con vacunas</h2>
+            <span>
+                <p>Vamos a terminar la pandemia matando el virus con una vacuna, no dejes que tú o tu familia se contagien.</p>
+                <span class="icon"><i class="fa-solid fa-shield fa-lg "></i>La mejor protección</span>
+                <span class="icon"><i class="fa-solid fa-shield fa-lg "></i>Vacunas seleccionadas</span>
+            </span>
+        </div>
+        <div>
+            <img src="./assets/vacunas-check.jpg" alt="">
+        </div>
+    </section>
+    <section id="agenda-vacuna">
+        <span class="agenda"><i class="fa-solid fa-clock icon-blue"></i>Agenda tus vacunas</span>
+        <div>
+            <span>
+                <span><i class="fa-solid fa-location-dot icon-blue"></i>Lugar</span>
+                <input type="text" id="lugar" placeholder="Jakarta Utara">
+            </span>
+            <span>
+                <span><i class="fa-solid fa-calendar icon-blue"></i>Fecha</span>
+                <input type="date" id="fecha">
+            </span>
+            <span>
+                <span><i class="fa-solid fa-pen icon-blue"></i>Tipo de vacuna</span>
+                <select id="vacuna">
+                    <option value="Pfizer">Pfizer</option>
+                    <option value="Moderna">Moderno</option>
+                    <option value="AstraZeneca">Astra Zeneca</option>
+                    <option value="SputnikV">Sputnik V</option>
+                    <option value="Sinovac">Sinovac</option>
+                    <option value="CanSino">CanSino</option>
+                </select>
+            </span>
+            <button style="height: 3rem;">Agendar</button>
+        </div>
+    </section>
+    <section id="vacunas">
+        <div>
+            <img src="./assets/moderna.png" alt="">
+        </div>
+        <div>
+            <img src="./assets/astraxeneca.png" alt="">
+        </div>
+        <div>
+            <img src="./assets/pfizer.png" alt="">
+        </div>
+        <div>
+            <img src="./assets/sinovac.png" alt="">
+        </div>
+    </section>
+    <section id="por-que-vacunarse">
+        <span>
+            <div>
+                <h2>¿Por qué debería vacunarme?</h2>
+                <p>Para evitar cualquier duda sobre la aplicacioón de la vacuna COVID-19, identifique los siguientes beneficios de su aplicación:</p>
+            </div>
+        </span>
+        <span>
+            <div class="tarjeta">
+                <i class="fa-solid fa-viruses fa-lg "></i>
+                <p class="title">Minimiza la expansión de los virus</p>
+                <p class="body">La vacuna ayuda a prevenir que alguien se infecte de Coronavirus</p>
+            </div>
+            <div class="tarjeta">
+                <i class="fa-solid fa-shield-virus fa-lg "></i>
+                <p class="title">Forma anticuerpos</p>
+                <p class="body">La vacuna del COVID-19 ayuda formar anticuerpos al sistema inmunitario.</p>
+            </div>
+            <div class="tarjeta">
+                <i class="fa-solid fa-user-shield fa-lg "></i>
+                <p class="title">Protege gente cercana</p>
+                <p class="body">Uno de los beneficios de la vacuna del COVID-19 es que ayuda a proteger a la gente que nos rodea.</p>
+            </div>
+            <div class="tarjeta">
+                <i class="fa-solid fa-user-group fa-lg "></i>
+                <p class="title">Crea un grupo inmune</p>
+                <p class="body">La vacuna del COVID-19 es benefica para crear grupos de inmunidad o  que ayuda a proteger a la gente que nos rodea.</p>
+            </div>
+        </span>
+    </section>
+    <section id="antes-vacuna">
+        <span>
+            <img src="./assets/vacuna-chica.jpg" alt="">
+        </span>
+        <span>
+            <div>
+                <h2>Preparativos antes de la vacuna</h2>
+                <p>La eficacia de la vacuna es influenciada por la fuerza del sistema inmunologico. Por lo tanto, hay acciones que se pueden realizar para lograr la eficacia: </p>
+            </div>
+            <div>
+                <details>
+                    <summary> <i class="fa-solid fa-shield-blank fa-lg icordion "></i>Evitar ingerir bebidas alcoholicas</summary>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, praesentium rerum aliquid error optio impedit dolorum cumque veritatis? Ipsam quae laudantium cumque obcaecati! Voluptate, quam soluta aliquid excepturi porro mollitia.</p>
+                </details>
+                <details>
+                    <summary><i class="fa-solid fa-square-xmark fa-lg icordion "></i>Evitar el estres</summary>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, praesentium rerum aliquid error optio impedit dolorum cumque veritatis? Ipsam quae laudantium cumque obcaecati! Voluptate, quam soluta aliquid excepturi porro mollitia.</p>
+                </details>
+                <details>
+                    <summary><i class="fa-solid fa-carrot fa-lg icordion "></i>Evitar el estres</summary>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, praesentium rerum aliquid error optio impedit dolorum cumque veritatis? Ipsam quae laudantium cumque obcaecati! Voluptate, quam soluta aliquid excepturi porro mollitia.</p>
+                </details>
+                <details>
+                    <summary><i class="fa-solid fa-circle-check fa-lg icordion "></i>Comer comida saludable</summary>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, praesentium rerum aliquid error optio impedit dolorum cumque veritatis? Ipsam quae laudantium cumque obcaecati! Voluptate, quam soluta aliquid excepturi porro mollitia.</p>
+                </details>
+                <details>
+                    <summary><i class="fa-solid fa-circle-check fa-lg icordion "></i>Duerme bien</summary>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, praesentium rerum aliquid error optio impedit dolorum cumque veritatis? Ipsam quae laudantium cumque obcaecati! Voluptate, quam soluta aliquid excepturi porro mollitia.</p>
+                </details>
+                <details>
+                    <summary><i class="fa-solid fa-heart-pulse fa-lg icordion "></i>Realiza ejercicio o actividad fisica</summary>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, praesentium rerum aliquid error optio impedit dolorum cumque veritatis? Ipsam quae laudantium cumque obcaecati! Voluptate, quam soluta aliquid excepturi porro mollitia.</p>
+                </details>
+            </div>
+        </span>
+
+        
+    </section>
+    <section id="llamanos">
+        <span>
+            <div>
+                <h2>Contacto de emergencia</h2>
+                <p>Utiliza uno de los contactos de abajo si tu o tu familia se siente mal o presenta sintomas similares a los del COVID-19. </p>
+            </div>
+            <div class="contenedor-tarjetas">
+                <div class="tarjeta">
+                    <span>
+                        <i class="fa-solid fa-phone"></i>
+                        <span>
+                            <p>Llamada</p>
+                            <p>021.123.145.14</p>
+                        </span>
+                    </span>
+                    <button>Llama ahora</button>
+                </div>
+                <div class="tarjeta">
+                    <span>
+                        <i class="fa-solid fa-comment-dots"></i>
+                        <span>
+                            <p>Chat</p>
+                            <p>021.123.145.14</p>
+                        </span>
+                    </span>
+                    <button>Mensajea ahora</button>
+                </div>
+                <div class="tarjeta">
+                    <span>
+                        <i class="fa-solid fa-video"></i>
+                        <span>
+                            <p>Videollamada</p>
+                            <p>021.123.145.14</p>
+                        </span>
+                    </span>
+                    <button>Llama ahora</button>
+                </div>
+                <div class="tarjeta">
+                    <span>
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>
+                            <p>Mensaje</p>
+                            <p>021.123.145.14</p>
+                        </span>
+                    </span>
+                    <button>Mensajea ahora</button>
+                </div>
+            </div>
+        </span>
+        <span>
+            <img src="./assets/phone.jpg" alt="">
+        </span>
+    </section>
+    <footer>
+        <span>
+            <div>
+                <h3>Vacunacion</h3>
+                <p>Nuestro objetivo es ayudar a todo el mundo gratis durante la pandemia</p>
+            </div>
+            <div>
+                <ul>
+                    <li>Sobre</li>
+                    <li>Nosotros</li>
+                    <li>Cambios</li>
+                    <li>Noticias</li>
+                </ul>
+                <ul>
+                    <li>Empresa</li>
+                    <li>¿Como trabajamos?</li>
+                    <li>Financiamiento</li>
+                    <li>Seguridad</li>
+                </ul>
+                <ul>
+                    <li>Apoyo</li>
+                    <li>Preguntas frecuentes</li>
+                    <li>Centro de apoyo</li>
+                    <li>Contactanos</li>
+                </ul>
+            </div>
+        </span>
+        <span>
+            <p>@2021 Vacunacion. Todos los derechos reservados</p>
+            <p>Terminos y condiciones</p>
+            <p>Politica de privacidad</p>
+        </span>
+    </footer>
+</body>
+</html>
